@@ -112,11 +112,11 @@ export function WelcomeBanner() {
         <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
           🚀 Add Liquidity
         </button>
-        <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          👨‍💻 Build your own
+        <button onClick={() => window.open('https://pump.fun/', '_blank')}>
+          PUMP.FUN
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://twitter.com/degenplayfun', '_blank')}>
+          TWITTER
         </button>
       </Buttons>
     </Welcome>
