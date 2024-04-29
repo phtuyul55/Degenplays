@@ -6,7 +6,7 @@ export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? 'https://api.ma
 
 // Solana address that will receive fees when somebody plays on this platform
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  'V2grJiwjs25iJYqumbHyKo5MTK7SFqZSdmoRaj8QWb9'
+  'DFuDb84aFBCAH7tPmiq84hcNmc4kiDZniFKmQojfXSNr'
 )
 
 // Gamba explorer URL - Appears in RecentPlays
@@ -37,8 +37,8 @@ export const POOLS = [
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Fake token:
-  lp(FAKE_TOKEN_MINT),
+  // Testing:
+  lp('GBuKtamN74gnRnQPUSrzKGnAYLU6vqHLyhBvFwKc73CK'),
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
 ]
@@ -51,13 +51,13 @@ export const DEFAULT_POOL = POOLS[0]
  * Alternatively, we can provide a fetcher method to automatically fetch metdata. See TOKEN_METADATA_FETCHER below.
  */
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
-  {
-    mint: FAKE_TOKEN_MINT,
-    name: 'Fake',
-    symbol: 'FAKE',
-    image: '/fakemoney.png',
-    baseWager: 1e9,
-    decimals: 9,
+ {
+    mint: new PublicKey('GBuKtamN74gnRnQPUSrzKGnAYLU6vqHLyhBvFwKc73CK'),
+    name: 'TEST',
+    symbol: 'Testing',
+    image: 'https://arweave.net/6aAiglLKMBGtLY544Xr0vEJDZXRt45u-o0__IaoNBUE',
+    baseWager: 1e6,
+    decimals: 6,
     usdPrice: 0,
   },
   {
