@@ -33,12 +33,12 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  * For private pools, add the creator of the Liquidity Pool as a second argument
  */
 export const POOLS = [
+   // DEPAY:
+  lp(''),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Testing:
-  lp('GBuKtamN74gnRnQPUSrzKGnAYLU6vqHLyhBvFwKc73CK'),
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
 ]
@@ -52,9 +52,9 @@ export const DEFAULT_POOL = POOLS[0]
  */
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
  {
-    mint: new PublicKey('GBuKtamN74gnRnQPUSrzKGnAYLU6vqHLyhBvFwKc73CK'),
-    name: 'TEST',
-    symbol: 'Testing',
+    mint: new PublicKey(''),
+    name: 'DEPAY',
+    symbol: 'DEPAY',
     image: 'https://arweave.net/6aAiglLKMBGtLY544Xr0vEJDZXRt45u-o0__IaoNBUE',
     baseWager: 1e6,
     decimals: 6,
