@@ -110,7 +110,7 @@ export function WelcomeBanner() {
       </div>
       <Buttons>
         <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
-          🚀 Add Liquidity
+          ADD LP
         </button>
         <button onClick={() => window.open('https://pump.fun/', '_blank')}>
           PUMP.FUN
