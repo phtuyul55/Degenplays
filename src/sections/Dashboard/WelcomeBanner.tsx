@@ -115,7 +115,7 @@ export function WelcomeBanner() {
         <button onClick={() => window.open('https://pump.fun/', '_blank')}>
           PUMP.FUN
         </button>
-        <button onClick={() => window.open('https://twitter.com/degenplayfun', '_blank')}>
+        <button onClick={() => window.open('https://twitter.com/degenplaysol', '_blank')}>
           TWITTER
         </button>
       </Buttons>
