@@ -34,7 +34,7 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  */
 export const POOLS = [
    // DEPAY:
-  lp(''),
+  lp('7WPi6azd7wTh2nmrciKpTbWbxhK9XXxv7KB9xCdeoTd9'),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
@@ -52,7 +52,7 @@ export const DEFAULT_POOL = POOLS[0]
  */
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
  {
-    mint: new PublicKey(''),
+    mint: new PublicKey('7WPi6azd7wTh2nmrciKpTbWbxhK9XXxv7KB9xCdeoTd9'),
     name: 'DEPAY',
     symbol: 'DEPAY',
     image: 'https://arweave.net/6aAiglLKMBGtLY544Xr0vEJDZXRt45u-o0__IaoNBUE',
