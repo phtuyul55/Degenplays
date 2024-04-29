@@ -112,7 +112,7 @@ export function WelcomeBanner() {
         <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
           ADD LP
         </button>
-        <button onClick={() => window.open('https://pump.fun/', '_blank')}>
+        <button onClick={() => window.open('https://pump.fun/7WPi6azd7wTh2nmrciKpTbWbxhK9XXxv7KB9xCdeoTd9', '_blank')}>
           PUMP.FUN
         </button>
         <button onClick={() => window.open('https://twitter.com/degenplaysol', '_blank')}>
