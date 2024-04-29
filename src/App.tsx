@@ -53,7 +53,7 @@ export default function App() {
     <>
       {newcomer && (
         <Modal>
-          <h1>Welcome</h1>
+          <h1>😎Welcome The Degeners😎</h1>
           <div style={{ position: 'relative' }}>
             <div style={{ maxHeight: '400px', padding: '10px', overflow: 'auto', position: 'relative' }}>
               <p><b>1. Age Requirement:</b> Must be at least 18 years old.</p>
@@ -72,7 +72,7 @@ export default function App() {
             By playing on our platform, you confirm your compliance.
           </p>
           <GambaUi.Button main onClick={() => set({ newcomer: false })}>
-            Acknowledge
+            Ok,Sir!!!🫡
           </GambaUi.Button>
         </Modal>
       )}
